@@ -1,4 +1,4 @@
-<h1 align=center><img src="./icons/96x96.png" width="64" height="64" /> TickTick in Sidebar</h1>
+<h1 align=center><img src="./icons/ticktick.png" width="64" height="64" /> TickTick in Sidebar</h1>
 
 <p align=center>
 <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{6930c4ab-262a-4e93-a3fa-562714cabb3f}">
