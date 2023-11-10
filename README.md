@@ -1,10 +1,10 @@
-<h1 align=center><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg" width="64" height="64" /> TickTick in Sidebar</h1>
+<h1 align=center><img src="./icons/96x96.png" width="64" height="64" /> TickTick in Sidebar</h1>
 
 <p align=center>
-<img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/  {6930c4ab-262a-4e93-a3fa-562714cabb3f} ">
-<img src="https://img.shields.io/amo/rating/  {6930c4ab-262a-4e93-a3fa-562714cabb3f} " />
-<img src="https://img.shields.io/amo/dw/  {6930c4ab-262a-4e93-a3fa-562714cabb3f} " />
-<img src="https://img.shields.io/amo/users/  {6930c4ab-262a-4e93-a3fa-562714cabb3f} " />
+<img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{6930c4ab-262a-4e93-a3fa-562714cabb3f}">
+<img src="https://img.shields.io/amo/rating/{6930c4ab-262a-4e93-a3fa-562714cabb3f}" />
+<img src="https://img.shields.io/amo/dw/{6930c4ab-262a-4e93-a3fa-562714cabb3f}" />
+<img src="https://img.shields.io/amo/users/{6930c4ab-262a-4e93-a3fa-562714cabb3f}" />
 <img src="https://img.shields.io/github/license/semanticdata/firefox-ticktick-in-sidebar" />
 </p>
 
