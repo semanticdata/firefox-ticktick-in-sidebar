@@ -49,19 +49,6 @@ The sidebar's width is _locked by default_ in Firefox. Unfortunately, the sideba
 
 This extension is an independent project, has no relationship, and is not affiliated to TickTick in any way. This extension is primarily for personal use; a personal project if you will. This add-on <i>only</i> launches their web app in the sidebar.
 
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this repository. Please
-search [existing issues](https://github.com/semanticdata/firefox-discord-in-sidebar/issues). It’s
-possible someone has already reported the same problem.
-
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/firefox-discord-in-sidebar/issues/new).
-
-## Contributing
-
-We'd love your help! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) to learn
-about the kinds of contributions we're looking for.
-
 ## Acknowledgments
 
 Icons used for all my extensions are part of <a href="https://uxwing.com/">UXWing</a>'s collection. Take a look at their <a href="https://uxwing.com/license">license</a>.

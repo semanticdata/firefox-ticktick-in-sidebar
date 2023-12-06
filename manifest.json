@@ -2,13 +2,15 @@
   "manifest_version": 2,
   "name": "TickTick in Sidebar",
   "description": "Displays TickTick in the sidebar.",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "73.0"
+      "strict_min_version": "100.0"
     }
   },
   "options_ui": {
