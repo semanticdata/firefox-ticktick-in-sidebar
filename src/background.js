@@ -1,20 +1,16 @@
-const sidebarToggle = "_execute_sidebar_action";
+// Background script for TickTick in Sidebar extension
+// This runs as a service worker in Manifest V3
 
-// Update UI and set value of textbox
-async function updateUI() {
-  let commands = await browser.commands.getAll();
-  for (command of commands) {
-    if (command.name === sidebarToggle) {
-      document.querySelector("#shortcut").value = command.shortcut;
-    }
+/**
+ * Opens/toggles the sidebar when the browser action is clicked
+ */
+async function openSidebar() {
+  try {
+    await browser.sidebarAction.toggle();
+  } catch (error) {
+    console.error('Failed to toggle sidebar:', error);
   }
 }
 
-// Adds Sidebar Toggle Button
-function openSidebar() {
-  browser.sidebarAction.toggle();
-}
-
+// Register click handler for browser action button
 browser.action.onClicked.addListener(openSidebar);
-
-document.addEventListener("DOMContentLoaded", updateUI);
