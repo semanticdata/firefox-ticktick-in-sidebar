@@ -6,16 +6,30 @@
 ![Add-on users](https://img.shields.io/amo/users/{6930c4ab-262a-4e93-a3fa-562714cabb3f})
 ![License](https://img.shields.io/github/license/semanticdata/firefox-ticktick-in-sidebar)
 
-A Firefox extension to display TickTick within the Firefox sidebar. This extension adds a new section to the sidebar which contains the TickTick web app. It also adds a shortcut, and a button toggle within the toolbar.
+Transform how you handle messaging and browsing. Instead of constantly switching between apps, keep both open simultaneously. Research something? Share it instantly. Reading an article? Chat about it without losing your spot.
+
+## What you get
+
+- No more tab switching
+- True multitasking setup
+- Customizable shortcuts and toolbar button
+- Sidebar Telegram access (**Alt+Shift+K**)
 
 [![Get the Addon](https://raw.githubusercontent.com/semanticdata/text-revealer-firefox-extension/master/firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/ticktick-in-sidebar/)
 
-## Usage
+## How to Use
 
-1. Toggle the sidebar by pressing _`Alt+Shift+K`_. This shortcut can be changed by going to _`Add-ons` → `TickTick in Sidebar` → `Options`_.
-2. If you prefer buttons over shortcuts, there is a toolbar button you can press to toggle the sidebar.
+### Keyboard Shortcut (Recommended)
 
-## How to Unlock Firefox Sidebar Width
+- Press **Alt+Shift+K** to open TickTick in the sidebar
+- Press **Alt+Shift+K** again to close it
+- Customize the shortcut in _Add-ons → TickTick in Sidebar → Options_
+
+### Toolbar Button
+
+- Click the TickTick icon in your Firefox toolbar to toggle Ticktick in the sidebar
+
+## How to Unlock Firefox Sidebar Width (the short version)
 
 The sidebar's width is _locked by default_ in Firefox. Unfortunately, the sidebar is very restrictive and I can only do so much to enhance the functionality of this extension. I put together a step-by-step guide on how to unlock it.
 
@@ -38,18 +52,18 @@ The sidebar's width is _locked by default_ in Firefox. Unfortunately, the sideba
 7. Finally, in a new tab, navigate to `about:config` and search for `toolkit.legacyUserProfileCustomizations.stylesheets` and change it to `true`.
 8. Restart Firefox and test it out!
 
-### 📝 Notes
+### 📝 Additional Notes
 
-- You can find the canonical publication for the guide on my [Blog](https://miguelpimentel.do/unlock-firefox-sidebar/).  
+- You can find the canonical publication for the guide on my [digital garden](https://forgetfulnotes.com/Tutorials/Unlock-Firefox-Sidebar).
 - I also have instructions in Spanish in this GitHub [Gist](https://gist.github.com/semanticdata/ee0bca4f3617241aa98da114653c0b08#file-instrucciones-md).
-
-## ⚠ Disclaimer
-
-This extension is an independent project, has no relationship, and is not affiliated to TickTick in any way. This extension is primarily for personal use; a personal project if you will. This add-on _only_ launches their web app in the sidebar.
 
 ## 💜 Acknowledgments
 
 Icons used for all my extensions are part of [UXWing](https://uxwing.com/)'s collection. Take a look at their [license](https://uxwing.com/license).
+
+## Disclaimer
+
+_Independent open source project—not affiliated with TickTick. Just making Firefox a bit more convenient for everyday productivity._
 
 ## © License
 
