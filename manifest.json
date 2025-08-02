@@ -1,28 +1,30 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "TickTick in Sidebar",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Displays TickTick in the sidebar.",
   "background": {
-    "scripts": ["src/background.js"]
+    "scripts": [
+      "src/background.js"
+    ]
   },
   "browser_specific_settings": {
     "gecko": {
       "id": "{6930c4ab-262a-4e93-a3fa-562714cabb3f}",
-      "strict_min_version": "100.0"
+      "strict_min_version": "140.0"
     }
   },
+  "author": "semanticdata",
   "options_ui": {
-    "page": "src/options/options.html",
-    "browser_style": true
+    "page": "src/options/options.html"
   },
   "sidebar_action": {
+    "default_title": "TickTick",
+    "default_panel": "src/sidebar/panel.html",
     "default_icon": {
       "16": "src/icons/16x16.png",
       "32": "src/icons/32x32.png"
-    },
-    "default_title": "TickTick",
-    "default_panel": "src/sidebar/panel.html"
+    }
   },
   "icons": {
     "16": "src/icons/16x16.png",
@@ -36,7 +38,7 @@
       "description": "Toggle the TickTick sidebar."
     }
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "src/icons/16x16.png",
       "32": "src/icons/32x32.png"

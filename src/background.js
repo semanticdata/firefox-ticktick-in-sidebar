@@ -15,6 +15,6 @@ function openSidebar() {
   browser.sidebarAction.toggle();
 }
 
-browser.browserAction.onClicked.addListener(openSidebar);
+browser.action.onClicked.addListener(openSidebar);
 
 document.addEventListener("DOMContentLoaded", updateUI);
