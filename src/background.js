@@ -2,15 +2,39 @@
 // This runs as a service worker in Manifest V3
 
 /**
- * Opens/toggles the sidebar when the browser action is clicked
+ * Logs errors to the console with extension context
+ * @param {Error} e - The error to log
  */
-async function openSidebar() {
+function onError(e) {
+  console.error("TickTick Sidebar Extension Error:", e);
+}
+
+/**
+ * Handles the sidebar toggle when the browser action is clicked
+ * @param {Object} tab - The currently active tab
+ */
+async function handleSidebarToggle(tab) {
   try {
     await browser.sidebarAction.toggle();
-  } catch (error) {
-    console.error('Failed to toggle sidebar:', error);
+  } catch (e) {
+    onError(e);
   }
 }
 
-// Register click handler for browser action button
-browser.action.onClicked.addListener(openSidebar);
+/**
+ * Handles extension installation and updates
+ * @param {Object} details - Installation details containing reason
+ */
+async function handleInstalled(details) {
+  try {
+    if (details.reason === "install" || details.reason === "update") {
+      await browser.runtime.openOptionsPage();
+    }
+  } catch (e) {
+    onError(e);
+  }
+}
+
+// Register event listeners
+browser.action.onClicked.addListener(handleSidebarToggle);
+browser.runtime.onInstalled.addListener(handleInstalled);

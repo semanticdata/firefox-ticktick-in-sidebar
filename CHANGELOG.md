@@ -16,10 +16,20 @@
   - Simplified validation logic and removed unnecessary complexity
   - Added user feedback with status messages for success/error states
   - Improved error handling with try-catch blocks
-- Improve background script
-  - Remove DOM manipulation from service worker context
-  - Add proper error handling for sidebar toggle functionality
-  - Clean up duplicate code between background and options scripts
+- Refactor background script
+  - Added centralized error handling with dedicated onError function
+  - Enhanced JSDoc documentation for all functions
+  - Added extension lifecycle management (opens options on install/update)  
+  - Improved function naming for better clarity
+  - Better code organization with clear event listener registration
+  - Enhanced error context in logging messages
+- Refactor sidebar panel script
+  - Added centralized error handling with consistent logging
+  - Enhanced JSDoc documentation for all functions
+  - Improved DOM element validation with null checks
+  - Better separation of concerns with dedicated functions
+  - Enhanced error state management
+  - More robust error handling throughout
 - Update License date
 - Update documentation
 
