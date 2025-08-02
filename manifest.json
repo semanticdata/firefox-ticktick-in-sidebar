@@ -43,5 +43,22 @@
       "16": "src/icons/16x16.png",
       "32": "src/icons/32x32.png"
     }
-  }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "*://*.ticktick.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/sidebar/panel.html"
+      ],
+      "matches": [
+        "*://*.ticktick.com/*"
+      ]
+    }
+  ]
 }
