@@ -9,7 +9,7 @@
   - Add better error handling
   - Update to use async/await more consistently
 - Refactor Options page
-  - Update to use semantic HTML
+  - Update to use more semantic HTML
   - Styled the page with only CSS
   - Added new heart icon
   - Removed external dependecies (Font Awesome, Bulma)
@@ -23,7 +23,8 @@
   - Improved function naming for better clarity
   - Better code organization with clear event listener registration
   - Enhanced error context in logging messages
-- Refactor sidebar panel script
+- Refactor sidebar panel
+  - Refactored sidebar panel to use more semantic HTML
   - Added centralized error handling with consistent logging
   - Enhanced JSDoc documentation for all functions
   - Improved DOM element validation with null checks
